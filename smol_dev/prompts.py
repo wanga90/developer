@@ -14,7 +14,6 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-
 SMOL_DEV_SYSTEM_PROMPT = """
 You are a top tier AI developer who is trying to write a program that will generate code for the user based on their intent.
 Do not leave any todos, fully implement every feature requested.
