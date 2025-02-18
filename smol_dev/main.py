@@ -8,6 +8,8 @@ import argparse
 # model = "gpt-3.5-turbo-0613"
 defaultmodel = "gpt-4-0613"
 
+// main Function
+
 def main(prompt, generate_folder_path="generated", debug=False, model: str = defaultmodel):
     # create generateFolder folder if doesnt exist
     generate_folder(generate_folder_path)
