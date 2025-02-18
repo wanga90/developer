@@ -14,14 +14,12 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-
 SMOL_DEV_SYSTEM_PROMPT = """
 You are a top tier AI developer who is trying to write a program that will generate code for the user based on their intent.
 Do not leave any todos, fully implement every feature requested.
 
 When writing code, add comments to explain what you intend to do and why it aligns with the program plan and specific instructions from the original prompt.
 """
-
 
 @openai_function
 def file_paths(files_to_edit: List[str]) -> List[str]:
