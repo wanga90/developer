@@ -1,7 +1,5 @@
-.env
 env
 __pycache__
-.vscode
 .idea
 /.idea/
 venv/
@@ -13,3 +11,5 @@ venv/
 !/generated/.gitkeep
 
 workspace
+config.bat
+node_modules
